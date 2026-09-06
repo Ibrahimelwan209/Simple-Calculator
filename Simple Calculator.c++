@@ -1,20 +1,19 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-
 void addition(double number1, double number2)
 {
-    cout << "The sum: " << number1 + number2 << endl;
+    cout << "The Result: " << number1 + number2 << endl;
 }
 
 void subtraction(double number1, double number2)
 {
-    cout << "The sub: " << number1 - number2 << endl;
+    cout << "The Result: " << number1 - number2 << endl;
 }
 
 void multiplication(double number1, double number2)
 {
-    cout << "The mul: " << number1 * number2 << endl;
+    cout << "The Result: " << number1 * number2 << endl;
 }
 
 void division(double number1, double number2)
@@ -25,7 +24,7 @@ void division(double number1, double number2)
     }
     else
     {
-        cout << "The div: " << number1 / number2 << endl;
+        cout << "The Result: " << number1 / number2 << endl;
     }
 }
 
@@ -37,7 +36,7 @@ void modulo(double number1, double number2)
     }
     else
     {
-        cout << "The mod: " << fmod(number1, number2) << endl;
+        cout << "The Result: " << fmod(number1, number2) << endl;
     }
 }
 
@@ -85,10 +84,9 @@ int main()
     }
 
 
-        cout << "Do you want to continue? (y/n): ";
+        cout << "Do you want to continue? (Y/N): ";
         cin >> choice;      
     }
-     while (choice == 'y');
-
+     while (choice == 'Y' );
            return 0;   
 }
