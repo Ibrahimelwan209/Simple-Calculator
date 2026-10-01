@@ -25,39 +25,6 @@ The application supports repeated calculations through a loop and includes valid
 |    `/`   | Division       |
 |    `%`   | Modulo         |
 
-## Program Flow
-
-```text
-Start
-  │
-  ▼
-Input First Number
-  │
-  ▼
-Input Second Number
-  │
-  ▼
-Input Operator
-  │
-  ▼
-Select Operation
-  │
-  ├── + ──► Addition
-  ├── - ──► Subtraction
-  ├── * ──► Multiplication
-  ├── / ──► Division
-  └── % ──► Modulo
-          │
-          ▼
-      Display Result
-          │
-          ▼
-   Continue? (Y/N)
-       │       │
-      Yes      No
-       │       │
-       └──►   End
-```
 
 
 
